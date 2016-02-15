@@ -1,0 +1,159 @@
+/* Modificar para que las palbras queden más juntas*/
+
+header {
+	padding: 30px 150px 0px 200px;
+}
+
+nav ul {
+	top: 35px;
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+nav li {
+	position: relative;
+	margin: 0 0 0 150px;
+	padding: 5px;
+	float: left;
+	font-size: 18px;
+	font-weight: 3px;
+} 
+
+nav li:hover a {
+	background: #FCE4EC; 
+}
+
+nav a {
+	text-decoration: none;
+	padding: 10px 10px;
+	color: black;
+	text-shadow: 2px 2px 4px #E1BEE7; 
+	border-radius: 10px;
+}
+
+
+/* NAME */
+
+.imgback {
+	padding: 0 30px;
+	width: 100%;
+	height: 300px;
+	z-index: -1;
+	position: absolute;
+	top: 70px;
+}
+
+.logo {
+	width: 70px;
+	height: 70px;
+	z-index: 2;
+	margin: auto;
+	position: absolute;
+	left: 48%;
+	top: 15%;
+	
+}
+
+h1, h4 {
+	color: #FFEBEE;
+	text-align: center;
+	margin-top: 12%;
+}
+
+h4 {
+	margin-top: 0%;
+}
+
+/* ABOUT ME */
+
+/* Investigar porque no funciona en repeat!!*/
+
+.title1 {
+	z-index: -1;
+	position: absolute;
+	background-repeat: repeat-x;
+	margin-top: 100px;
+	padding: 0 30px;
+	width: 100%;
+	height: 300px;
+} 
+
+h2 {
+	z-index: 1;
+	color: #E80C7A;
+	margin-top: 130px;
+	margin-left: 25%;
+}
+
+.aboutme p {
+	z-index: 1;
+	margin-top: 110px;
+	float: right;
+	margin-top: 10px;
+	margin-left: -40px;
+}
+
+.me{
+	width: 150px;
+	height: 150px;
+	margin-top: 180px;
+}
+
+.rowme {
+	margin-top: 0px; 
+}
+
+/* MY FAVOURITE THINGS */
+
+.pink {
+	color: #E80C7A;
+}
+
+.z1 {
+	z-index: 1;
+}
+
+.favs {
+	text-align: center;
+}
+
+.myfav {
+	margin-left: 0%;
+}
+
+.things img {
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	padding: 2px;
+	border: pink solid 1px;
+	margin-top: 5%;
+}
+
+.imgfav {
+	margin-left: 5%;
+}
+
+/* FOOTER */
+
+.background {
+	background-image: url("http://static.tumblr.com/a44a527a98089874eee82e97c321862a/jbxezvv/Jjxnq23z9/tumblr_static_30fvxiruua4gokc4ss800gow8.jpg");
+	width: auto;
+	height: 300px;
+	padding: 0 30px;
+	margin: 40px;
+	z-index: -1;
+}
+
+.background p {
+	font-size: 28px;
+	font-weight: 5px;
+	text-align: center;
+	padding: 5%;
+}
+
+.contactimg {
+	padding: 5%;
+	margin-left: 8%;
+
+}
